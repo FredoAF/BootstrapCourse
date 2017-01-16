@@ -25,3 +25,10 @@
  - the number 12 is used in formatting the layout of Bootstrap as its the most divisible number.
  - col-xs md, sm, lg specify the column parameters when the div is at different sizes.
  - .img-responsive will fill a container and change the height of the image as the container changes.
+
+
+## Forms
+  - Form control class must be on items for the overriding form class to be applied
+  - form-inline or form-horizontal can be applied to the form to define how the layout is viewed.
+  - text items in the form need to be in a div wrapper if columns are used.
+  - Column classes can be applied to the labels direct. See the forms.html file.
