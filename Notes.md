@@ -16,3 +16,4 @@
  - Viewport meta tag: set the device width to be the actual width of the device - as most mobile devices set the width by default to be 1024 so that you see a portion of the page full size, in 1:1 ratio. We do this as Bootstrap takes mobile devices into account - so we want to be in control.
  - .map tells you where to look in the non-minified file where the error was in the minified file.
  - Media queries -the browser asks the device what its max width is etc - and based on the response it will return a difference CSS file that is appropriate for it.
+ - On Chrome developer tools you can select the device you want to imitate, so you can tell the server what device you are and see what it sends back, to test media queries.
