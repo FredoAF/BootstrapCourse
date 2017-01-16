@@ -38,3 +38,4 @@
  - Grids can be used instead of Tables. You can use borders and stripes to make them look good with the Boostrap classes.
  - Don't need tbody, thead tfoot are no longer needed.
  - You need to put a table-responsive div around a table in order to create the scroll when the page size decreases.
+change
