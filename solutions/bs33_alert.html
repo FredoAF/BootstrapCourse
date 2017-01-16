@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Welcome to the Online Megastore</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</head>
+<!-- Note this inline css for the body (to leave room for NavBar at top) -->
+<!-- it is always recommended ot put CSS in an external style sheet rather than inline -->
+
+<body style="padding-top: 30px;">
+	<!-- navbar fixed to top -->
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" datatoggle="
+collapse" data-target="#the-menu">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand brand" href="/index.html">Megastore</a>
+			</div>
+			<div class="collapse navbar-collapse" id="the-menu">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="/index.html"><span
+class="glyphicon glyphicon-home"></span>&nbsp;Home</a></li>
+					<li><a href="/browse.html"><span class="glyphicon glyphiconbriefcase"></
+span>&nbsp;Browse Products</a></li>
+					<li><a href="/contact.html"><span class="glyphicon glyphiconearphone"></
+span>&nbsp;Contact Us</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+
+					<li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></
+span>&nbsp;My Cart <span class="badge">4</span></a></li>
+					<li><a href="#"><span class="glyphicon glyphicon-log-in"></
+span>&nbsp;Sign In</a></li>
+				</ul>
+				<form class="navbar-form navbar-right visible-md-inline visiblelg-
+inline">
+					<div class="form-group" style="margin-top: 4px">
+						<label class="sr-only" for="keyword">Keyword</label>
+						<input type="text" class="form-control input-sm" id="keyword" placeholder="Enter Search keyword" />
+					</div>
+				</form>
+			</div>
+		</div>
+	</nav>
+
+	<!---->
+
+	<div class="container">
+		<div class="page-header">
+			<h1><span class="glyphicon glyphicon-home"></span>
+		Welcome to the Online Megastore </h1></div>
+		<div class="row">
+			<h4>Notice the Nav Bar changes for small devices</h4>
+			<!-- Responsive Columns -->
+			<h3>Responsive Columns (same on all devices)</h3>
+			<div class="row">
+				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+					Column 1: col-xs-4 col-sm-4 col-md-4 col-lg-4
+				</div>
+				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+					Column 2: col-xs-4 col-sm-4 col-md-4 col-lg-4
+				</div>
+				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+					Column 3: col-xs-4 col-sm-4 col-md-4 col-lg-4
+				</div>
+			</div>
+			<h3>Responsive Columns (2 or 3 columns, depends on device)</h3>
+			<div class="row">
+				<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+					Column 1: col-xs-6 col-sm-4 col-md-4 col-lg-4
+				</div>
+				<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+					Column 2: col-xs-6 col-sm-4 col-md-4 col-lg-4
+				</div>
+				<div class="hidden-xs col-sm-4 col-md-4 col-lg-4">
+					Column 3: hidden-xs col-sm-4 col-md-4 col-lg-4
+				</div>
+			</div>
+			<h3>Responsive Columns (varies with device)</h3>
+			<div class="row">
+				<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4">
+					Column 1: col-xs-12 col-sm-5 col-md-5 col-lg-4
+				</div>
+				<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4">
+					Column 2: col-xs-12 col-sm-5 col-md-5 col-lg-4
+				</div>
+				<div class="col-xs-12 col-sm-2 col-md-2 col-lg-4">
+					Column 3: col-xs-12 col-sm-2 col-md-2 col-lg-4
+				</div>
+			</div>
+
+
+			<!--   -->
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+				<div class="panel panel-info">
+					<div class="panel-heading"> Latest Additions </div>
+					<div class="panel-body"> ... </div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+				<div class="panel panel-warning">
+					<div class="panel-heading"> Most Popular Products </div>
+					<div class="panel-body">
+						<ul class="list-inline">
+							<li><img src="img/p1.png" class="img-thumbnail" alt="Product 1" title="Product 1"></li>
+							<li><img src="img/p2.png" class="img-thumbnail" alt="Product 2" title="Product 2"></li>
+							<li><img src="img/p3.png" class="img-thumbnail" alt="Product 3" title="Product 3"></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!---->
+
+	<div class="alert alert-info">You last visited us on Thursday, 20th March 2015. Please <a href="/contact.html" class="alert-link">let us
+know</a> in case of any issues or feedback.</div>
+
+	<!---->
+	<div id="footer">
+		<div class="container">
+			&copy2017 read our legal notice
+		</div>
+	</div>
+</body>
+
+</html>
