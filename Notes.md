@@ -32,3 +32,4 @@
   - form-inline or form-horizontal can be applied to the form to define how the layout is viewed.
   - text items in the form need to be in a div wrapper if columns are used.
   - Column classes can be applied to the labels direct. See the forms.html file.
+  - If you want to layout your columns as rows, then all you need to do is set the width of the column to be the entire width (12), then the next column will have to go underneath.
