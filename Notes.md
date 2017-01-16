@@ -9,8 +9,7 @@
  - Similar thing but for JS, write short code and it converts it into long code using the engine.
 
 ### Compatibility
- - Caniuse.com allows you to input JS, CSS components to see which browsers support it.
- - Builtwith.com allows you to input a web addr and see what technologies make up the site.
+ - Caniuse.com allows you to input JS, CSS components to see which browsers support it. - Builtwith.com allows you to input a web addr and see what technologies make up the site.
 
 ## Writing a template
  - Viewport meta tag: set the device width to be the actual width of the device - as most mobile devices set the width by default to be 1024 so that you see a portion of the page full size, in 1:1 ratio. We do this as Bootstrap takes mobile devices into account - so we want to be in control.
@@ -33,3 +32,9 @@
   - text items in the form need to be in a div wrapper if columns are used.
   - Column classes can be applied to the labels direct. See the forms.html file.
   - If you want to layout your columns as rows, then all you need to do is set the width of the column to be the entire width (12), then the next column will have to go underneath.
+
+
+## Tables
+ - Grids can be used instead of Tables. You can use borders and stripes to make them look good with the Boostrap classes.
+ - Don't need tbody, thead tfoot are no longer needed.
+ - You need to put a table-responsive div around a table in order to create the scroll when the page size decreases.
