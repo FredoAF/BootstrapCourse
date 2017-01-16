@@ -39,3 +39,12 @@
  - Don't need tbody, thead tfoot are no longer needed.
  - You need to put a table-responsive div around a table in order to create the scroll when the page size decreases.
 change
+
+## Accessibility
+ - You can have sr options for screen readers. Also you can place a link to the accessibility at the start of the site which is then styled to be placed at the bottom of the screen for visual users.
+
+## Components
+ - Navigation bar - fix to top and move the page down.
+ - fluid container div inside navbar
+ - data- tags in buttons: data-target, data-toggle etc. data- means you can add whatever you like - not a fixed attribute of the HTML tag. Angular uses data- before the ng- attributes.
+ - zoom in changes text size which in turn changes navbar height, and so fixed pixel padding to offset body so its visible under navbar will not be enough - so percentage is preferable
