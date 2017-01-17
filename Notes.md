@@ -48,3 +48,22 @@ change
  - fluid container div inside navbar
  - data- tags in buttons: data-target, data-toggle etc. data- means you can add whatever you like - not a fixed attribute of the HTML tag. Angular uses data- before the ng- attributes.
  - zoom in changes text size which in turn changes navbar height, and so fixed pixel padding to offset body so its visible under navbar will not be enough - so percentage is preferable
+
+# Day 2
+
+## Screen size decisions
+- If you need to move something as the screen size reduces, you can either use bootstrap to hide and show elements at certain screen sizes, or you can you use JS to move the element to a new position.
+- todo mvc site shows you the difference between most popular mvc's on the web
+- library is a set of routines that you call
+- framework is its own thing that you run
+
+## Components
+- badges: such as a count of items in a shopping basket - black circle background. Like a notification on iPhone
+- Alerts - for pop up with JS
+- Wells instead of panels? They are less complex. Don't have to rely on grid - can specify with width and height to place them in the right place.
+
+## Using JS with bootstrap
+- Jquery can be used to show HTML elements. It will compute one element in a chain before it will execute the next element.
+- Can select a tag, id or class. Using comma to add together classes, tags etc.
+- ~ : etc can be used to specify what element in the HTML we want to talk to.
+- $().click, .bind, .on are event listeners.

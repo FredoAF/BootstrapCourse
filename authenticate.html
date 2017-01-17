@@ -1,0 +1,46 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <title>Modal winder for Authentication</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css.map" rel="stylesheet" type="text/plain"/>
+    <link href="css/bootstrap-theme.min.css.map" rel="stylesheet" type="text/plain"/>
+  </head>
+  <body>
+    <div class="container">
+      <div class="modal" id="modalWindow">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" name="button" class="close" data-dismiss="modal">
+                <span>&times;</span>
+              </button>
+              <h4>Authentication</h4>
+            </div>
+            <div class="modal-body">
+              <p>Modal Window Content would go here</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" name="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalWindow">Modal Inbuild</button>
+      <button type="button" class="btn btn-primary" onclick="btnCall()" data-target="#modalWindow">Modal Js</button>
+    </div>
+  </body>
+
+  <script type="text/javascript" src="js/jquery-3.1.1.min.js" ></script>
+  <script type="text/javascript" src="js/bootstrap.min.js" ></script>
+
+  <script type="text/javascript">
+    function btnCall(){
+      $('#modalWindow').modal('toggle');
+    }
+  </script>
+
+</html>
