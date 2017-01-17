@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>Basic Bootstrap Examples</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link href="css/bootstrap.min.css" rel="stylesheet" />
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet" />
+	<link href="css/bootstrap.min.css.map" type="text/plain" rel="stylesheet" />
+	<link href="css/bootstrap-theme.min.css.map" type="text/plain" rel="stylesheet" />
+	<style>
+		/* prevent the content from going under the fixed nav-bar */
+		
+		body {
+			padding-top: 36px;
+		}
+	</style>
+
+</head>
+
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#the-menu">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand brand" href="basic.html">Home</a>
+			</div>
+			<div class="navbar-collapse collapse" id="the-menu">
+				<ul class="nav navbar-nav">
+					<li class="active">
+						<a href="basic.html">
+							<span class="glyphicon glyphicon-home"></span>Home</a>
+					</li>
+					<li>
+						<a href="about.html">
+							<span class="glyphicon glyphicon-info-sign"></span> About
+						</a>
+					</li>
+					<li>
+						<a href="contact.html">
+							<span class="glyphicon glyphicon-envelope"></span> Contact
+						</a>
+					</li>
+					<li>
+						<a href="details.html">
+							<span class="glyphicon glyphicon-list-alt"></span> Details
+						</a>
+					</li>
+				</ul>
+				<!-- range-right navbar elements -->
+				<ul class="nav navbar-bar navbar-right">
+					<li><a href="#"><span class="glyphicon glyphicon-log-in"></span>Log in</a></li>
+				<!-- badge -->
+				<li><a href="#"><span class="glyphicon glyphicon-shopping-cart">
+					</span>&nbsp;My Cart 
+					<span class="badge">4</span></a>
+				</li>
+				</ul>
+				<form class="navbar-right navbar-form visible-md-inline visible-lg-inline">
+					<div class="form-group">
+						<label class="sr-only" for="keyword">keyword</label>
+						<input type="text" placeholder="search keyword" class="form-control input-sm" id="keyword" />
+					</div>
+				</form>
+
+			</div>
+		</div>
+	</nav>
+	<div class="container">
+		<h1><span class="glyphicon glyphicon-home"></span>Welcome</h1>
+		<p>Paragraphs
+			<mark>take</mark> a <abbr>default</abbr> style</p>
+		<aside class="h1">this is styled like a heading</aside>
+
+		<hr/>
+		<article>
+			<button class="btn btn-sm">Go</button>
+			<button class="btn btn-xs">Go</button>
+			<button class="btn btn-lg hidden-sm">Go</button>
+		</article>
+		<hr/>
+		<!-- explring pull and colour -->
+		<aside class="pull-right text-danger bg-info">Aside content goes here</aside>
+		<hr/>
+		<article class="row">
+			<div class="col-xs-6 col-sm-4 col-md-4 col-lg-3">
+				Column 1
+			</div>
+			<div class="col-xs-6 col-sm-4 col-md-4 col-lg-3">
+				Column 2
+			</div>
+			<div class="hidden-xs col-sm-4 col-md-4 col-lg-6">
+				Column 3
+			</div>
+		</article>
+		<hr/>
+
+		<section class="row">
+			<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8"></div>
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+				<img src="images/a_duck.jpg" title="an image" alt="an image" class="img-responsive img-thumbnail" />
+			</div>
+
+		</section>
+		<!-- well -->
+		<div class="well well-sm"><h4>This is a well</h4></div>
+	</div>
+
+</body>
+
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+
+</html>

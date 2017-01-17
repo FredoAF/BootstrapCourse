@@ -21,9 +21,9 @@
 
     <div class="panel-group" id="accordion">
       <div class="panel panel-default">
-        <div class="panel-heading">
+        <div class="panel-heading" id="panel1">
           <h4 class="panel-title">
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" id="title1">
             Categories</a>
           </h4>
         </div>
@@ -125,9 +125,10 @@
   <script src="js/jquery-3.1.1.min.js" ></script>
   <script src="js/bootstrap.min.js" ></script>
   <script type="text/javascript">
-    jQuery('.panel-heading a').click(function() {
-      $(this).text("Close");
-    });
+    $('#panel1').on('show.bs.collapse',function(){
+      $('#title1').text('changed');
+    })
+
   </script>
 
 </html>

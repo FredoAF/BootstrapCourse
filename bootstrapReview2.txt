@@ -1,0 +1,16 @@
+Bootstrap Review Exercise 2   see http://pastebin.com/eLrjnNyq
+===========================    http://pastebin.com/HH7ADPWR
+ 
+Build a page containing three collapsible accordion sections for
+- a drop-down of category choices
+- a carousel of images
+- a panel containing a table listing shopping cart items
+Provide a top-level navbar including links to basic.html and authenticate.html
+Use grid layout as required
+
+Optional
+========
+Opening/closing an accordion section should change the label 'open' to 'close'
+Populate the drop-down categories via a JavaScript object
+Write a simple jQuery AJAX-call to load photos.json then use the images in the carousel (use 'desc' as the tooltip content)
+Add photos to an array (the cart) and show these dynamically in the table

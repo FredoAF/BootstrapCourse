@@ -1,0 +1,19 @@
+Bootstrap Review Exercise 1   solution http://pastebin.com/mLzPyma8
+===========================   until about 2:30 ish
+Open the template and save as review1.html
+Create two <div> blocks divided like this: 
+For md and lg use 4/12 and 8/12 then for sm and xs use 12/12 and 12/12 
+
+Use <div class="panel panel-info"><div class="panel-heading"> and <div class="panel-body">
+within in each column (i.e. one on the left one on the right)
+
+Build a form in the left panel and render three product images in the right column
+In the form ask for name and email and render the form fields horizontally or vertically depending on space. Apply rounded corners to each of the three images
+
+Use <div class="page-header"> at the top and <div class="page-footer"> at the bottom with sample content (e.g. titles and legal content). You may also need to use class=container
+
+Optional
+--------
+Explore <span class="input-group-addon glyphicon glyph-iconuser"> immediately before the user name form field
+Also try <span class="input-group-addon">@</span> immediately before the email form field
+Put an icon on the form submit button

@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Bootstrap Form Example</title>
+		<meta name="viewport" 
+			  content="width=device-width, initial-scale=1" />
+		
+		<link href="css/bootstrap.min.css" rel="stylesheet"/>
+		<link href="css/bootstrap-theme.min.css" rel="stylesheet"/>
+		<link href="css/bootstrap.min.css.map" 
+			  type="text/plain" rel="stylesheet"/>
+		<link href="css/bootstrap-theme.min.css.map" 
+			  type="text/plain" rel="stylesheet"/>
+	</head>
+	<body>
+	<article class="container">
+		<!-- breadcrumb -->
+		<ol class="breadcrumb"> 
+			<li><a href="#">Home</a></li> 
+			<li><a href="#">Categories</a></li> 
+			<li><a href="#">Electronics</a></li> 
+			<li><a href="#">Gadgets</a></li>
+			<li class="active">under a fiver</li>
+		</ol>
+		
+		<form class="form-horizontal">
+			<div class="form-group">
+				<label for="username"
+					   class="col-sm-3 control-label">Name</label>
+				<div class="col-sm-9">
+				<input type="text" 
+					   id="username"
+					   name="username"
+					   class="form-control"
+					   placeholder="please enter your name"
+					   required />
+				</div>
+				<label for="txtComments"
+					   class="col-sm-3 control-label">Comments</label>
+				<div class="col-sm-9">
+				<textarea class="form-control"
+						  id="txtComments"
+						  name="txtComments"
+						  placeholder="comments go here"></textarea>
+				</div>
+				<label for="cb" class="col-sm-3 control-label">Sign up</label>
+				<div class="col-sm-9">
+				<input type="checkbox" id="cb"/>
+				</div>
+				<input type="button" class="btn btn-primary" value="Go"/>
+			</div>
+		</form>
+		<!-- example pagination -->
+		<nav>
+			<ul class="pager">
+				<li><a href="#">&lt;Prev</a></li>
+				<li><a href="#">Next&gt;</a></li>
+			</ul>
+			<ul class="pagination">
+				<li><a href="#">1</a></li>
+				<li><a href="#">2</a></li>
+				<li><a href="#">3</a></li>
+				<li><a href="#">4</a></li>
+			</ul>
+		</nav>
+		
+	</article>
+	</body>
+	<!--
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	-->
+	
+</html>

@@ -70,6 +70,7 @@ change
 - Navs and Pills are navigation options.
 - tooltip and popover are unique in that they do not work unless JS is configured. Must write a selector and specify that its going to be a tooltip / popover.
 - `` are used to allow writing JS over multiple lines``
+- using the backticks also allows you to insert ${} variables
 
 ## Afternoon Exercise
 - toolbar at the top
@@ -77,3 +78,16 @@ change
 - Accordian with two pill nav seciton
 - in left nav - Carosel of images in left
 - in right - panel with table / shopping cart
+
+## Themes
+- Themeroller from jqueryui.com allows you to choose colour options and choices and get feedback on how the BS elements will look. You can them download the BS theme.
+- color.adobe.com is a good tool for looking at related colours.
+- bootswatch.com is free themes - you can then download the CSS and replace the boostrap.min.css with the new one to update. If you download the variables Less, you can change those variable and then compile the new CSS.
+
+## Tools
+- plunkr is for code testing in the web. adds your own css and js and shows live preview.
+- bootply - for bootstrap, you select the components to add in.
+- jsfiddle is good for snippets with a small output, plunkr is better for actual testing
+
+## Device support
+- Need the meta tag at the top to make sure its mobile compatible.
