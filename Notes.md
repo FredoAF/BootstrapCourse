@@ -67,3 +67,13 @@ change
 - Can select a tag, id or class. Using comma to add together classes, tags etc.
 - ~ : etc can be used to specify what element in the HTML we want to talk to.
 - $().click, .bind, .on are event listeners.
+- Navs and Pills are navigation options.
+- tooltip and popover are unique in that they do not work unless JS is configured. Must write a selector and specify that its going to be a tooltip / popover.
+- `` are used to allow writing JS over multiple lines``
+
+## Afternoon Exercise
+- toolbar at the top
+- Accordian with drop down inside - categories choice
+- Accordian with two pill nav seciton
+- in left nav - Carosel of images in left
+- in right - panel with table / shopping cart

@@ -11,7 +11,7 @@
   </head>
   <body>
     <div class="container">
-      <div class="modal" id="modalWindow">
+      <div class="modal" id="modalWindow" >
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
@@ -21,16 +21,49 @@
               <h4>Authentication</h4>
             </div>
             <div class="modal-body">
+              <!--  tabs / pills-->
+              <div >
+                <ul class="nav nav-tabs">
+                    <li class="active"><a data-toggle="tab" href="#signInTab">Login</a></li>
+                    <li><a data-toggle="tab" href="#registerTab">Register</a></li>
+                </ul>
+                <div class="tab-content">
+                  <div class="tab-pane active" id="signInTab">
+                    <form>
+                      <div class="form-group">
+                        <input type="text" class="form-control" id="username" placeholder="username">
+                        <input type="text" class="form-control" id="password" placeholder="password">
+                      </div>
+                    </form>
+                  </div>
+                  <div class="tab-pane" id="registerTab">
+                    <form>
+                      <div class="form-group">
+                        <input type="text" class="form-control" id="hey" placeholder="hey">
+                        <input type="text" class="form-control" id="password" placeholder="password">
+                      </div>
+                    </form>
+                  </div>
+
+                </div>
+              </div>
+
               <p>Modal Window Content would go here</p>
             </div>
             <div class="modal-footer">
               <button type="button" name="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+              <button type="button" name="button" class="btn btn-success" data-dismiss="modal">Sign In</button>
             </div>
           </div>
         </div>
       </div>
       <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalWindow">Modal Inbuild</button>
       <button type="button" class="btn btn-primary" onclick="btnCall()" data-target="#modalWindow">Modal Js</button>
+
+      <!--  Tooltip and popover-->
+      <a class="btn btn-info" href="#" data-toggle="tooltip" data-placement="bottom" title="Open Link">See Tooltip</a>
+      <a class="btn btn-info" href="#" data-toggle="popover" data-placement="right" title="Open Link">See Tooltip</a>
+
     </div>
   </body>
 
@@ -40,7 +73,22 @@
   <script type="text/javascript">
     function btnCall(){
       $('#modalWindow').modal('toggle');
-    }
+    };
+    $(document).ready(function(){
+      $('[data-toggle="tooltip"]').tooltip();
+      $('[data-toggle="popover"]').popover({
+        html:true,
+        trigger:'click',
+        container:'body',
+        content:function(){
+          return `
+            <div>
+               This is a popover
+            </div>
+          `;
+        }
+      });
+    });
   </script>
 
 </html>
